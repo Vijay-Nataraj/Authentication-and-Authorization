@@ -1,0 +1,32 @@
+{
+  "name": "authentication-and-authorization",
+  "version": "1.0.0",
+  "description": "This Node.js application implements user authentication and authorization using Bearer tokens. It follows the MVC pattern and includes API documentation.",
+  "homepage": "https://github.com/Vijay-Nataraj/Authentication-and-Authorization#readme",
+  "bugs": {
+    "url": "https://github.com/Vijay-Nataraj/Authentication-and-Authorization/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vijay-Nataraj/Authentication-and-Authorization.git"
+  },
+  "license": "ISC",
+  "author": "Vijay Nataraj",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
